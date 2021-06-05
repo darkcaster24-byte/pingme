@@ -1,0 +1,71 @@
+.navbar{
+    background-color: #0e1619;
+    margin-top: -10px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-brand{
+    color: #eb7fb2 !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    font-family: 'Viga', sans-serif;
+    font-size: 32px ;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+#brand{
+    padding-top: 4rem;
+    background-color: #eb7fb2 ;
+}
+
+.cover{
+    max-width: 100%;
+}
+
+#about{
+    padding-top: 5rem;
+}
+#menu{
+    background-color: #eb7fb2 ;
+    padding-top: 5rem;
+}
+
+footer{
+    background-color: #0e1619 ;
+}
+
+.design{
+    margin-bottom: -3px;
+}
+
+.card{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media (min-width: 992px) {
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+        text-shadow:rgba(180, 132, 132, 0.7);
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+}
